@@ -1,3 +1,5 @@
+import { double } from "@rjwebb/other-project-cjs"
+
 export function foobar() {
   return 10;
 }
@@ -15,3 +17,7 @@ export async function bazBar() {
 foobar()
 somethingElse()
 bazBar()
+
+export function quadruple(x: number) {
+  return double(double(x));
+}

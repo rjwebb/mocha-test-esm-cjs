@@ -16,7 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "@canvas-js/chain-ethereum": "^0.8.26",
-    "@ipld/dag-json": "^10.2.0"
+    "@ipld/dag-json": "^10.2.0",
+    "@rjwebb/other-project-cjs": "1.0.0"
   },
   "devDependencies": {
     "@rjwebb/test-project": "1.0.0"
