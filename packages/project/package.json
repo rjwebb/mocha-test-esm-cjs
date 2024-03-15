@@ -1,0 +1,24 @@
+{
+  "name": "@rjwebb/test-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "ts-mocha -p test/tsconfig.json 'test/**/*.spec.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@canvas-js/chain-ethereum": "^0.8.26",
+    "@ipld/dag-json": "^10.2.0"
+  },
+  "devDependencies": {
+    "@rjwebb/test-project": "1.0.0"
+  }
+}

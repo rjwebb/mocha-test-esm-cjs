@@ -1,0 +1,11 @@
+
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/project" },
+    { "path": "./packages/project/test" }
+  ],
+  "exclude": [
+    "**/node_modules/**" // Specify the files to exclude from compilation
+  ]
+}

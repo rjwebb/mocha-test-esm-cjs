@@ -1,0 +1,11 @@
+{
+  "exclude": ["dist"],
+  "extends": "../../../tsconfig.base.json", // Extend the base configuration
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../." }
+  ]
+}

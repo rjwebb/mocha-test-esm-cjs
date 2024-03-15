@@ -1,0 +1,23 @@
+{
+  "name": "mocha-test",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "npm run test -w=packages/project",
+    "exec-ts": "ts-node packages/project/src/index.ts",
+    "exec-js": "node packages/project/dist/index.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.3.6",
+    "mocha": "^10.3.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
